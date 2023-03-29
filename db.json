@@ -871,7 +871,7 @@
       "name": "Fly Inn",
       "place": "Gangamuthanahalli",
       "description": "",
-      "additional": "| 790 m from Kempegowda Airport | 36.1 km from city centre",
+      "additional": "| 790 m from Kempegowda Airport | 36.1 km from city centre",
       "taxes": 432,
       "price": 3000,
       "additional2": "",
@@ -1441,7 +1441,7 @@
       "name": "ABM Boutique Hotel by Purple Cloud",
       "place": "Yerthiganahalli",
       "description": "Couple Friendly",
-      "additional": "| 8.0 km from Kempegowda Airport | 28.5 km from city centre",
+      "additional": "| 8.0 km from Kempegowda Airport | 28.5 km from city centre",
       "taxes": 414,
       "price": 2600,
       "additional2": "",
@@ -4895,6 +4895,507 @@
       "price": 3000,
       "id": 263
     }
-  ]
+  ],
+  "Things_todo" : [
+  
+    {
+      "id":1,
+      
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/03/bc/73/yellow-cab-kolkata-tourdekolka.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      "title": "Tour De Kolkata",
+      "rating": "122 ",
+      "adress": "27 Mirza Ghalib Street Mirza Ghalib Street, Kolkata (Calcutta) 700016 India",
+      "price": "₹2,532"
+    },
+    {
+      "id":2,
+      
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/60/d1/ad/calm-place.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Mother House",
+      "rating": "1,587 ",
+      "adress": "Mother House A J C Bose Road, Kolkata (Calcutta) 700016 India",
+      "price": "₹2,200"
+    },
+    {
+      "id":3,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/e4/ab/29/birla-temple.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Birla Temple",
+      "rating": "481 ",
+      "adress": "Ashutosh Chowdhury Road 29 Ashutosh Choudhury Avenue, Kolkata (Calcutta) 700019 India",
+      "price": "₹3,500"
+    },
+    {
+      "id":4,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/58/06/0f/quest-mall.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Quest Mall",
+      "rating": "328 ",
+      "adress": "Syed Amir Ali Ave Park Circus, Ballygunge, Kolkata (Calcutta) India",
+      "price": "₹3,500"
+    },
+    {
+      "id":5,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/1c/85/3d/such-a-serial-place.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "South Park Street Cemetery",
+      "rating": "540 ",
+      "adress": "Kolkata (Calcutta) India",
+      "price": "₹2,200"
+    },
+    {
+      "id":6,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/6f/50/49/the-main-building.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Tagore House",
+      "rating": "134 ",
+      "adress": "Kolkata (Calcutta) India",
+      "price": "₹3,500"
+    },
+    {
+      "id":7,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/d8/eb/9b/eden-gardens-stadium.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Eden Gardens",
+      "rating": "1,351 ",
+      "adress": "Kolkata Centre, Kolkata (Calcutta) 700021 India",
+      "price": "₹517"
+    },
+    {
+      "id":8,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/da/d7/97/gariahat-market.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Gariahat Market",
+      "rating": "345 ",
+      "adress": "212 Rash Behari Avenue Gariahat Crossing, Kolkata (Calcutta) 700019 India",
+      "price": "₹3,500"
+    },
+    {
+      "id":9,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/0a/69/1d/the-spa-by-jw-offers.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Spa by JW",
+      "rating": "67 ",
+      "adress": "4A, J.B.S. Haldane Avenue Kolkata, Kolkata (Calcutta) 700105 India",
+      "price": ""
+    },
+    {
+      "id":10,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/cb/18/27/birla-industrial-technological.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Birla Industrial & Technological Museum",
+      "rating": "205 ",
+      "adress": "Gurusaday Road Beside Ice Skating Rink, adjacent to Modern High School, Kolkata (Calcutta) 700019 India",
+      "price": "₹3,500"
+    },
+    {
+      "id":11,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/f1/3c/b5/calcutta-india.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Park Street",
+      "rating": "2,090 ",
+      "adress": "Mother Teresa Sarani, Kolkata (Calcutta) 700016 India",
+      "price": "₹988"
+    },
+    {
+      "id":12,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/d2/ee/16/new-books-mall.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "College Street (Boi Para)",
+      "rating": "826 ",
+      "adress": "Kolkata (Calcutta) India",
+      "price": "₹2,200"
+    },
+    {
+      "id":13,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/d7/21/1f/img20170719083322-01.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Rabindra Sarovar",
+      "rating": "242 ",
+      "adress": "Southern Avenue, Golpark, Tollygunge, Dhakuria, Lake Gardens, Kolkata (Calcutta) 700029 India",
+      "price": "₹3,500"
+    },
+    {
+      "id":14,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/57/a7/7b/victoria-memorial-hall.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Victoria Memorial Hall",
+      "rating": "4,661 ",
+      "adress": "1 Queen's Way, Kolkata (Calcutta) India",
+      "price": "₹853"
+    },
+    {
+      "id":15,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1f/ec/f0/20/hi.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Kaya Kalp - The Royal Spa",
+      "rating": "10 ",
+      "adress": "1 Jbs Haldane Ave ITC Sonar, Kolkata (Calcutta) 700046 India",
+      "price": ""
+    },
+    {
+      "id":16,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/d3/f7/2c/p-20161029-190824-largejpg.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Howrah Bridge",
+      "rating": "2,626 ",
+      "adress": "Jagganath Ghat 1, Strand Road, Kolkata (Calcutta) 700001 India",
+      "price": "₹2,200"
+    },
+    {
+      "id":17,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/33/da/bf/sunshine.jpg?w=400&h=400&s=1",
+      "place":"kolkata",
+      
+      "title": "Sunshine",
+      "rating": "178 ",
+      "adress": "7 Sudder Street, Kolkata (Calcutta) India",
+      "price": ""
+    },
+    {
+      "id":18,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/65/75/3b/st-paul-s-cathedral.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "St. Paul's Cathedral",
+      "rating": "615 ",
+      "adress": "1A, Cathedral Road, Kolkata (Calcutta) 700071 India",
+      "price": "₹2,616"
+    },
+    {
+      "id":19,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/64/ee/44/china-town.jpg?w=400&h=400&s=1",
+      "place":"kolkata",
+      
+      "title": "Tangra Chinatown",
+      "rating": "87 ",
+      "adress": "Kolkata (Calcutta) India",
+      "price": ""
+    },
+    {
+      "id":20,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/d1/88/c5/nicco-park-s-logo.jpg?w=400&h=-1&s=1",
+      "place":"kolkata",
+      
+      "title": "Nicco Parks & Resorts Limited",
+      "rating": "401 ",
+      "adress": "Jheel Meel, Sector IV Salt Lake place, Kolkata (Calcutta) 700106 India",
+      "price": "₹3,500"
+    },
+    {
+      "id":21,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/17/38/64/img-20190605-170505-largejpg.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Maidan",
+      "rating": "350 ",
+      "adress": "Just south of B.B.D. Bagh to just north of Alipore and from the Hooghly River to J. L. Nehru Rd. and the shops of Park St., Kolkata (Calcutta) India",
+      "price": "₹3,376"
+    },
+    {
+      "id":22,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/9c/32/9b/kolkata-food-walk.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Kolkata Food Walk",
+      "rating": "79 ",
+      "adress": "South Kolkata, Kolkata (Calcutta) India",
+      "price": ""
+    },
+    {
+      "id":23,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/e8/5a/36/photo0jpg.jpg?w=400&h=400&s=1",
+      "place":"kolkata",
+      
+      "title": "Netaji Bhawan",
+      "rating": "110 ",
+      "adress": "38/2 Lala Lajpat Rai Sarani, Kolkata (Calcutta) India",
+      "price": "₹6,500"
+    },
+    {
+      "id":24,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/8a/4b/5e/photo1jpg.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "New Market",
+      "rating": "809 ",
+      "adress": "Lindsay Street at Free School Street, Kolkata (Calcutta) India",
+      "price": "₹2,532"
+    },
+    {
+      "id":25,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/e8/f1/49/jain-temple-full-of-glitter.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Parashnath Jain Temple",
+      "rating": "179 ",
+      "adress": "11/A Heysham Road Near Elgin Road Forum Mall, Kolkata (Calcutta) 700020 India",
+      "price": "₹3,500"
+    },
+    {
+      "id":26,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/67/4b/7a/birla-planetarium.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Birla Planetarium",
+      "rating": "313 ",
+      "adress": "Maidan Chowringhee, Kolkata (Calcutta) India",
+      "price": "₹2,026"
+    },
+    {
+      "id":27,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/93/70/b6/museum-building.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Indian Museum (Jadu Ghar)",
+      "rating": "996 ",
+      "adress": "27 Jawaharlal Nehru Rd, Kolkata (Calcutta) 700016 India",
+      "price": "₹1,941"
+    },
+    {
+      "id":28,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/93/62/26/full-frame.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Prinsep Ghat",
+      "rating": "676 ",
+      "adress": "Strand Rd, Kolkata (Calcutta) India",
+      "price": "₹988"
+    },
+    {
+      "id":29,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/6b/e3/2f/the-church.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "St. John's Church",
+      "rating": "236 ",
+      "adress": "2/2 Council House Street Opp Dewars Garage, Kolkata (Calcutta) 700001 India",
+      "price": "₹2,200"
+    },
+    {
+      "id":30,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/08/56/a8/jorasanko-thakur-bari.jpg?w=400&h=300&s=1",
+      "place":"kolkata",
+      
+      "title": "Jorasanko Thakur Bari",
+      "rating": "328 ",
+      "adress": "6/4 Dwarakanath Tagore Lane Rabindra Bharati University Campus, Jorasanko, Kolkata (Calcutta) India",
+      "price": "₹3,500"
+    }
+   
+    ,
+      {
+        "id":31,
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/b7/1f/31/qutab-minar.jpg?w=500&h=400&s=1",
+      "rating":23,
+        "place": "Delhi",
+        "title": "1.Qutub Minar",
+        "price": "13,309"
+      },
+      {
+        "id":32,
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/23/c6/0f/img-20160507-135554-largejpg.jpg?w=500&h=400&s=1",
+        "rating":23,
+        "place": "Delhi",
+        "title": "2.Swaminarayan Akshardham",
+        "price": "11,926"
+      },
+      {
+        "id":33,
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/c9/39/b3/humayun-s-tomb.jpg?w=500&h=400&s=1",
+       "rating":23,
+        "place": "Delhi",
+        "title": "3.Humayun's Tomb",
+        "price": "10,489"
+      },
+      {
+        "id":34,
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/a5/ca/ae/a-divine-monument.jpg?w=500&h=400&s=1",
+       "rating":23,
+        "place": "Delhi",
+        "title": "4.Gurudwara Bangla Sahib",
+        "price": "6,820"
+      },
+      {
+        "id":35,
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/dc/5a/af/india-gate-a-beautiful.jpg?w=500&h=400&s=1",
+       "rating":23,
+        "place": "Delhi",
+        "title": "5.India Gate",
+        "price": "10,350"
+      },
+      {
+        "id":36,
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/14/cf/80/lodi-gardens.jpg?w=500&h=400&s=1",
+        "rating":23,
+        "place": "Delhi",
+        "title": "6.Lodhi Garden",
+        "price": "4,134"
+      },
+      {
+        "id":37,
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/56/e2/7e/engineering-marvel-at.jpg?w=500&h=-1&s=1",
+        "rating":23,
+        "place": "Delhi",
+        "title": "7.Lotus Temple",
+        "price": "7,017"
+      },
+      {
+        "id":38,
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/3c/4a/42/fb-img-1502472371491.jpg?w=500&h=-1&s=1",
+        "rating":23,
+        "place": "Delhi",
+        "title": "8.Red Fort",
+        "price": "5,536"
+      },
+      {
+        "id":39,
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/6e/a4/a1/photo5jpg.jpg?w=500&h=400&s=1",
+        "rating":23,
+        "place": "Delhi",
+        "title": "9.Chandni Chowk",
+        "price": "4,421"
+      },
+      {
+        "id":40,
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/6f/c4/64/hauz-khas-village.jpg?w=500&h=400&s=1",
+        "rating":23,
+        "place": "Delhi",
+        "title": "10.Hauz Khas Village",
+        "price": "1,602"
+      },
+      {
+        "id":41,
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/84/ad/e4/delhi-airport-metro-express.jpg?w=500&h=-1&s=1",
+        "rating":23,
+        "place": "Delhi",
+        "title": "11.Delhi Airport Metro Express",
+        "price": "2,653"
+      },
+      {
+        "id":42,
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/23/9a/2f/rashtrapati-bhavan.jpg?w=500&h=400&s=1",
+        "rating":23,
+        "place": "Delhi",
+        "title": "12.Rashtrapati Bhavan",
+        "price": "1,769"
+      }
+      ,
+        {
+          "id":43,
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/d3/a8/57/images-30-largejpg.jpg?w=500&h=-1&s=1",
+          "place":"rajasthan",
+          "title": "Amber Palace",
+          
+          "price": "18,455"
+        },
+        {
+          "id":44,
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/99/ae/7f/images-14-largejpg.jpg?w=500&h=400&s=1",
+          "place":"rajasthan",
+          "title": "Mehrangarh Fort",
+          
+          "price": "8,556"
+        },
+        {
+          "id":45,
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/2b/f0/f7/img-20181018-104236-01.jpg?w=500&h=-1&s=1",
+          "place":"rajasthan",
+          "title": "place Palace of Udaipur",
+          
+          "price": "9,284"
+        },
+        {
+          "id":46,
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/10/b5/57/jantar-mantar-jaipur.jpg?w=500&h=-1&s=1",
+          "place":"rajasthan",
+          "title": "Jantar Mantar - Jaipur",
+          
+          "price": "7,562"
+        },
+        {
+          "id":47,
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0d/e3/4b/img-20180921-184349-largejpg.jpg?w=500&h=-1&s=1",
+          "place":"rajasthan",
+          "title": "Hawa Mahal - Palace of Wind",
+          
+          "price": "9,059"
+        },
+        {
+          "id":48,
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/77/15/9a/photo0jpg.jpg?w=500&h=-1&s=1",
+          "place":"rajasthan",
+          "title": "Lake Pichola",
+          
+          "price": "6,295"
+        },
+        {
+          "id":49,
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/ae/37/19/jaisalmer-fortress.jpg?w=500&h=400&s=1",
+          "place":"rajasthan",
+          "title": "Jaisalmer Fort",
+          
+          "price": "5,572"
+        },
+        {
+          "id":50,
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/96/8a/82/this-is-the-time-when.jpg?w=500&h=400&s=1",
+          "place":"rajasthan",
+          "title": "place Palace of Jaipur",
+         
+          "price": "6,697"
+        },
+        {
+          "id":51,
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/1a/06/d8/tiger-in-jim-corbett.jpg?w=500&h=400&s=1",
+          "place":"rajasthan",
+          "title": "Ranthambore Tiger Reserve",
+          
+          "price": "4,885"
+        },
+        {
+          "id":52,
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/b7/bb/0d/keoladeo-ghana-national.jpg?w=500&h=-1&s=1",
+          "place":"rajasthan",
+          "title": "Keoladeo National Park",
+          
+          "price": "1,900"
+        },
+        {
+          "id":53,
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/47/25/1d/bagore-ki-haveli.jpg?w=500&h=400&s=1",
+          "place":"rajasthan",
+          "title": "Bagore Ki Haveli Museum",
+          
+          "price": "3,171"
+        },
+        {
+          "id":54,
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/90/cb/b6/one-of-several-other.jpg?w=500&h=-1&s=1",
+          "place":"rajasthan",
+          "title": "Ranakpur Jain Temple",
+          
+          "price": "3,334"
+        }
+       
+     
+       
+   ]
 }
-
