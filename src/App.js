@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Flights from './Pages/Flights/Flight';
 
 function App() {
   return (
     <div className="App">
-      
+      <Flights/>
     </div>
   );
 }
