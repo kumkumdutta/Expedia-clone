@@ -11,6 +11,9 @@ const getData = async (page, priceValue) => {
   return res.data;
 };
 
+
+
+
 export default function FlightList({ page, priceValue }) {
   const [data, setData] = React.useState([]);
 
