@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.css';
 // import { AdminHotel } from './Pages/Admin/AdminHotel';
 import { AllRoutes } from './Pages/AllRoutes';
