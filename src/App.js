@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+import Stay from './Pages/Stay';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      
+      <Stay/>
     </div>
   );
 }
