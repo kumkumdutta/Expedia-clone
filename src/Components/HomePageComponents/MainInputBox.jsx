@@ -1,4 +1,5 @@
 import { Tab, TabIndicator,Box, TabList, TabPanel, TabPanels, Tabs, Center } from '@chakra-ui/react'
+import Stay from '../../Pages/Stay';
 import React from 'react'
 
 const MainInputBox = () => {
@@ -22,7 +23,7 @@ const MainInputBox = () => {
                 />
                 <TabPanels>
                     <TabPanel>
-                        <p>Stays</p>
+                        <Stay/>
                     </TabPanel>
                     <TabPanel>
                         <p>Flight</p>
