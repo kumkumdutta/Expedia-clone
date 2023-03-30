@@ -24,7 +24,7 @@ const MainInputBox = () => {
                 />
                 <TabPanels>
                     <TabPanel>
-
+                    <Stay/>
                     </TabPanel>
                     <TabPanel>
                         <p>Flight</p>
