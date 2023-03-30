@@ -21,6 +21,7 @@ const HomePage = () => {
       <QatarVisitBanner/>
       <ManSeeBanner/>
       <Footer/>
+      {/* <AllRoutes /> */}
     </div>
   )
 }
