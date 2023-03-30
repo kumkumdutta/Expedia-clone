@@ -1,5 +1,6 @@
 import { Tab, TabIndicator,Box, TabList, TabPanel, TabPanels, Tabs, Center } from '@chakra-ui/react'
 import React from 'react'
+import { InputBox } from '../../Pages/ThingsTodo/InputBox'
 
 const MainInputBox = () => {
   return (
@@ -22,7 +23,7 @@ const MainInputBox = () => {
                 />
                 <TabPanels>
                     <TabPanel>
-                        <p>Stays</p>
+                    <p>Stays</p>
                     </TabPanel>
                     <TabPanel>
                         <p>Flight</p>
@@ -31,7 +32,7 @@ const MainInputBox = () => {
                         <p>Cars</p>
                     </TabPanel>
                     <TabPanel>
-                        <p>Things to do</p>
+                        <InputBox/>
                     </TabPanel>
                     <TabPanel>
                         <p>Packages</p>
