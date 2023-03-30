@@ -36,7 +36,7 @@ function Stay() {
 
   return (
     <div className="App">
-      <header  style={{ backgroundColor:"white", border:"2px solid red"}}>
+      <header  style={{ backgroundColor:"white",margin:"20px"}}>
         <div style={{ width: 400}}>
           <ReactSearchAutocomplete
             items={data}
