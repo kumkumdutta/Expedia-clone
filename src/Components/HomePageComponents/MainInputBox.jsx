@@ -5,10 +5,10 @@ import { InputBox } from '../../Pages/ThingsTodo/InputBox'
 
 const MainInputBox = () => {
   return (
-    <Box width={'85%'} m={'auto'} border='1px solid #BDBDBD' borderRadius='7px' >
+    <Box width={'85%'}  m={'auto'} mt={10} border='1px solid #BDBDBD' borderRadius='7px' >
             <Tabs position="relative" variant="unstyled">
                 <Center>
-                    <TabList borderBottom='1px solid #BDBDBD' width={'80%'} justifyContent={'space-evenly'} >
+                    <TabList  borderBottom='1px solid #BDBDBD' width={'80%'} justifyContent={'space-evenly'} pt={5} pb={3} >
                         <Tab _selected={{ color: 'blue.500'}} fontWeight='semibold' >Stays</Tab>
                         <Tab _selected={{ color: 'blue.500'}} fontWeight='semibold'>Flight</Tab>
                         <Tab _selected={{ color: 'blue.500'}} fontWeight='semibold'>Cars</Tab>
