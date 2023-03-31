@@ -49,6 +49,16 @@
       "gender": "",
       "marital_status": null,
       "id": 5
+    },
+    {
+      "number": "8007903757",
+      "user_name": "Sagar Balsaraf",
+      "password": "Saagar@123",
+      "email": "",
+      "dob": "",
+      "gender": "",
+      "marital_status": null,
+      "id": 6
     }
   ],
   "hotelcart": [
