@@ -49,6 +49,16 @@
       "gender": "",
       "marital_status": null,
       "id": 5
+    },
+    {
+      "number": "9011613558",
+      "user_name": "Mayur Dongre",
+      "password": "Mayur@123",
+      "email": "",
+      "dob": "",
+      "gender": "",
+      "marital_status": null,
+      "id": 6
     }
   ],
   "hotelcart": [

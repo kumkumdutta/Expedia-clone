@@ -9,6 +9,9 @@ import HelpBoxes from '../Components/HomePageComponents/HelpBoxes'
 import QatarVisitBanner from '../Components/HomePageComponents/QatarVisitBanner'
 import ManSeeBanner from '../Components/HomePageComponents/ManSeeBanner'
 import Flights from './Flights/Flight'
+import { AllRoutes } from './AllRoutes'
+import { Register } from './Register'
+import { Login } from './Login'
 
 
 const HomePage = () => {
@@ -24,6 +27,8 @@ const HomePage = () => {
       <ManSeeBanner/>
       <Footer/>
       {/* <AllRoutes /> */}
+      
+
     </div>
   )
 }
