@@ -3,6 +3,7 @@ import { ReactSearchAutocomplete } from 'react-search-autocomplete';
  import data from "./city";
  import { FaMapMarkerAlt } from 'react-icons/fa';
  import { MdLocationOn } from 'react-icons/md';
+import ShowCalender from './ShowCalender';
 function Stay() {
    
   const handleOnSearch = (string, results) => {
@@ -61,6 +62,9 @@ function Stay() {
           />
         </div>
       </header>
+      <div>
+        <ShowCalender/>
+      </div>
     </div>
   )
 }

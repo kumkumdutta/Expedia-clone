@@ -1,14 +1,10 @@
-import Stay from './Pages/Stay';
-import './App.css';
-import HomePage from './Pages/HomePage';
-import Flights from './Pages/Flights/Flight';
-
+import "./App.css";
+import HomePage from "./Pages/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <HomePage/>
-      {/* <Flights/> */}
+      <HomePage />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import { Tab, TabIndicator,Box, TabList, TabPanel, TabPanels, Tabs, Center } from '@chakra-ui/react'
-import Stay from '../../Pages/Stay';
+import Stay from '../../Pages/Stay/Stay';
 import React from 'react'
 import { InputBox } from '../../Pages/ThingsTodo/InputBox'
 
