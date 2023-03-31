@@ -30,14 +30,15 @@ import {
   import {HiOutlineChevronDown} from 'react-icons/hi'
   import {MdOutlineFlight} from 'react-icons/md'
   import {AiFillCar} from 'react-icons/ai'
-  
+  import {Link as RouterLink} from 'react-router-dom'
   
   export default function Navbar() {
     const { isOpen, onToggle } = useDisclosure();
     const { colorMode, toggleColorMode } = useColorMode();
   
     return (
-      <Box>
+    
+     <Box>
         <Flex
           bg={useColorModeValue('white', 'gray.800')}
           color={useColorModeValue('gray.600', 'white')}
@@ -63,13 +64,16 @@ import {
               aria-label={'Toggle Navigation'}
             /> */}
           </Flex>
+          <RouterLink to="/">
           <Flex flex={{ base: 100 }} justify={{ base: 'space-between', md: 'start' }}>
             <Image src='https://i.postimg.cc/QxksRNkQ/expedio-Logo.jpg' alt='logo' width={{base:'100px',sm:'12%'}} />
   
             <Flex display={{ base: 'none', md: 'flex' }} ml={6}>
               <DesktopNav />
             </Flex>
+        
           </Flex>
+          </RouterLink>
   
           <Stack
             flex={{ base: 1, md: 0 }}
@@ -113,6 +117,10 @@ import {
           <MobileNav />
         </Collapse>
       </Box>
+    
+      
+   
+      
     );
   }
   
