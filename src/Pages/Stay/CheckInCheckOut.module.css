@@ -1,0 +1,40 @@
+.date-pickers {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .date-picker-wrapper {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 1rem;
+  }
+  
+  .date-picker-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .date-picker-input {
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+  
+  .check-in .smaller-text {
+    font-size: 0.8rem;
+    color: grey;
+  }
+  
+  .selected-date {
+    margin-top: 0.5rem;
+  }
+  
+  .selected-date .bigger-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
