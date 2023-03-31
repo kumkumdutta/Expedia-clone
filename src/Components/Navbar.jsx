@@ -43,7 +43,7 @@ import {
           bg={useColorModeValue('white', 'gray.800')}
           color={useColorModeValue('gray.600', 'white')}
           minH={'60px'}
-
+          justifyContent={'space-between'}
           py={{ base: 2, }}
           px={{ base: 4 }}
           pr={{sm:'80px'}}
@@ -66,7 +66,7 @@ import {
           </Flex>
           <RouterLink to="/">
           <Flex flex={{ base: 100 }} justify={{ base: 'space-between', md: 'start' }}>
-            <Image src='https://i.postimg.cc/QxksRNkQ/expedio-Logo.jpg' alt='logo' width={{base:'100px',sm:'12%'}} />
+            <Image src='https://i.postimg.cc/QxksRNkQ/expedio-Logo.jpg'  alt='logo' width={{base:'350px',sm:'18%'}} />
   
             <Flex display={{ base: 'none', md: 'flex' }} ml={6}>
               <DesktopNav />
@@ -76,7 +76,7 @@ import {
           </RouterLink>
   
           <Stack
-            flex={{ base: 1, md: 0 }}
+            flex={{ base: 1, sm: 0 }}
             justify={'flex-end'}
             direction={'row'}
             spacing={{base:3,sm:6}}>
