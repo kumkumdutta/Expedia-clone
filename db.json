@@ -95,7 +95,7 @@
     {
       "airline": "Vistara",
       "number": "6E 2054",
-      "from": "DELHI",
+      "from": "dELHI",
       "to": "MUMBAI",
       "departure": "04:20",
       "arrival": "07:15",
@@ -5161,7 +5161,7 @@
       "id": 31,
       "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/b7/1f/31/qutab-minar.jpg?w=500&h=400&s=1",
       "rating": 23,
-      "place": "Delhi",
+      "place": "delhi",
       "title": "1.Qutub Minar",
       "price": "13,309"
     },
@@ -5169,7 +5169,7 @@
       "id": 32,
       "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/23/c6/0f/img-20160507-135554-largejpg.jpg?w=500&h=400&s=1",
       "rating": 23,
-      "place": "Delhi",
+      "place": "delhi",
       "title": "2.Swaminarayan Akshardham",
       "price": "11,926"
     },
@@ -5177,7 +5177,7 @@
       "id": 33,
       "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/c9/39/b3/humayun-s-tomb.jpg?w=500&h=400&s=1",
       "rating": 23,
-      "place": "Delhi",
+      "place": "delhi",
       "title": "3.Humayun's Tomb",
       "price": "10,489"
     },
@@ -5185,7 +5185,7 @@
       "id": 34,
       "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/a5/ca/ae/a-divine-monument.jpg?w=500&h=400&s=1",
       "rating": 23,
-      "place": "Delhi",
+      "place": "delhi",
       "title": "4.Gurudwara Bangla Sahib",
       "price": "6,820"
     },
@@ -5193,7 +5193,7 @@
       "id": 35,
       "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/dc/5a/af/india-gate-a-beautiful.jpg?w=500&h=400&s=1",
       "rating": 23,
-      "place": "Delhi",
+      "place": "delhi",
       "title": "5.India Gate",
       "price": "10,350"
     },
@@ -5201,7 +5201,7 @@
       "id": 36,
       "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/14/cf/80/lodi-gardens.jpg?w=500&h=400&s=1",
       "rating": 23,
-      "place": "Delhi",
+      "place": "delhi",
       "title": "6.Lodhi Garden",
       "price": "4,134"
     },
@@ -5209,7 +5209,7 @@
       "id": 37,
       "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/56/e2/7e/engineering-marvel-at.jpg?w=500&h=-1&s=1",
       "rating": 23,
-      "place": "Delhi",
+      "place": "delhi",
       "title": "7.Lotus Temple",
       "price": "7,017"
     },
@@ -5217,7 +5217,7 @@
       "id": 38,
       "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/3c/4a/42/fb-img-1502472371491.jpg?w=500&h=-1&s=1",
       "rating": 23,
-      "place": "Delhi",
+      "place": "delhi",
       "title": "8.Red Fort",
       "price": "5,536"
     },
@@ -5225,7 +5225,7 @@
       "id": 39,
       "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/6e/a4/a1/photo5jpg.jpg?w=500&h=400&s=1",
       "rating": 23,
-      "place": "Delhi",
+      "place": "delhi",
       "title": "9.Chandni Chowk",
       "price": "4,421"
     },
@@ -5233,7 +5233,7 @@
       "id": 40,
       "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/6f/c4/64/hauz-khas-village.jpg?w=500&h=400&s=1",
       "rating": 23,
-      "place": "Delhi",
+      "place": "delhi",
       "title": "10.Hauz Khas Village",
       "price": "1,602"
     },
@@ -5241,15 +5241,15 @@
       "id": 41,
       "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/84/ad/e4/delhi-airport-metro-express.jpg?w=500&h=-1&s=1",
       "rating": 23,
-      "place": "Delhi",
-      "title": "11.Delhi Airport Metro Express",
+      "place": "delhi",
+      "title": "11.delhi Airport Metro Express",
       "price": "2,653"
     },
     {
       "id": 42,
       "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/23/9a/2f/rashtrapati-bhavan.jpg?w=500&h=400&s=1",
       "rating": 23,
-      "place": "Delhi",
+      "place": "delhi",
       "title": "12.Rashtrapati Bhavan",
       "price": "1,769"
     },
