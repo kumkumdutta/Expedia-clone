@@ -1,13 +1,19 @@
 import React,{useState} from 'react'
 import { AiTwotoneEnvironment } from "react-icons/ai";
 import {Image,Box,FormLabel,Button} from "@chakra-ui/react";
+import { Link } from 'react-router-dom';
+
 
 
 export const InputBox =()=>{
-  const [place,setPlace] = useState("")
-  const handleSearch=()=>{
-    console.log(place);
-  }
+  
+  const [placeName,setPlaceName] = useState("");
+
+ 
+
+  
+ 
+
   return (
     <>
    
@@ -21,14 +27,16 @@ export const InputBox =()=>{
     <Box m="auto"><AiTwotoneEnvironment /> </Box>
     <FormLabel  mt="7px"  > Select Place :  </FormLabel>
       
-      <select style={{marginLeft:"8px", width:"100px", marginRight:"7px"}} id="" value={place} onChange={(e)=>setPlace(e.target.value)} name="city">
+      <select style={{marginLeft:"8px", width:"100px", marginRight:"7px"}} id="" value={placeName} onChange={(e)=>setPlaceName(e.target.value)} name="city">
       <option >select-city</option>
         <option value="kolkata">Kolkata</option>
         <option value="delhi">Delhi</option>
         <option value="rajasthan">Rajasthan</option>
       </select>
       </Box>
-      <Button border="1px solid" borderRadius="6px" width="70px" height="40px" m="auto" bg="#304FFE" color="white" ml="5px" onClick={handleSearch}>Search</Button>
+      <Button border="1px solid" borderRadius="6px" width="70px" height="40px" m="auto" bg="#304FFE" color="white" ml="5px" >
+      <Link to={{ pathname: '/ThingsToDo', search: `?place=${placeName}` }}>Search</Link>
+      </Button>
     </Box>
     
     
