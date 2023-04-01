@@ -10,6 +10,7 @@ import { Destination } from "./ThingsTodo/Destination";
 import HomePage from "./HomePage";
 import { Login } from "./Login";
 import { Register } from "./Register";
+import CheckoutPage from "./CheckoutPage";
 
 export const AllRoutes = () => {
     return (
@@ -24,7 +25,7 @@ export const AllRoutes = () => {
             <Route path="/register" element={<Register/>}/>
             <Route path="/admin/hotels" element={<AllHotels />} />
             <Route path="/ThingsToDo" element={<Destination/>}/>
-            
+            <Route path="/checkout" element={<CheckoutPage/>} ></Route>
           </Routes>
         </>
       );

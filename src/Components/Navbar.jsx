@@ -35,6 +35,7 @@ import {
   export default function Navbar() {
     const { isOpen, onToggle } = useDisclosure();
     const { colorMode, toggleColorMode } = useColorMode();
+    const myColor = useColorModeValue('light','dark')
   
     return (
     
@@ -55,18 +56,10 @@ import {
             flex={{ base: 1, md: 'auto' }}
             ml={{ base: -2 }}
             display={{ base: 'flex', md: 'none' }}>
-            {/* <IconButton
-              onClick={onToggle}
-              icon={
-                isOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />
-              }
-              variant={'ghost'}
-              aria-label={'Toggle Navigation'}
-            /> */}
           </Flex>
           <RouterLink to="/">
           <Flex flex={{ base: 100 }} justify={{ base: 'space-between', md: 'start' }}>
-            <Image src='https://i.postimg.cc/QxksRNkQ/expedio-Logo.jpg'  alt='logo' width={{base:'350px',sm:'18%'}} />
+            <Image src={myColor=='light'?'https://i.postimg.cc/QxksRNkQ/expedio-Logo.jpg':'https://i.postimg.cc/4yWYc3wH/logo-21.png'}  alt='logo' width={{base:'350px',sm:'18%'}} />
   
             <Flex display={{ base: 'none', md: 'flex' }} ml={6}>
               <DesktopNav />
@@ -132,10 +125,10 @@ import {
     return (
       <Stack direction={'row'} spacing={4}>
         {NAV_ITEMS.map((navItem) => (
-          <Box key={navItem.label} mt={'12px'} >
+          <Box key={navItem.label} mt={'12px'} zIndex={5}  >
             <Popover trigger={'click'} placement={'bottom-start'}>
               <PopoverTrigger>
-                <Box fontSize={20} >
+                <Box fontSize={20} zIndex={10}>
                     <Link
                     p={2}
                     href={navItem.href ?? '#'}
@@ -155,9 +148,12 @@ import {
   
               {navItem.children && (
                 <PopoverContent
+                  
                   border={0}
                   boxShadow={'xl'}
                   bg={popoverContentBgColor}
+                  bg={'white'}
+                  zIndex={5}
                   p={4}
                   rounded={'xl'}
                   minW={'sm'}>
