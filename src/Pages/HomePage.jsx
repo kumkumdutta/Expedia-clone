@@ -16,14 +16,12 @@ const HomePage = () => {
     <div>
       <Navbar/>
       <MainInputBox/>
-      <Flights/>
       <Banner1/>
       <ImageQRCodeBanner/>
       <HelpBoxes/>
       <QatarVisitBanner/>
       <ManSeeBanner/>
       <Footer/>
-      {/* <AllRoutes /> */}
     </div>
   )
 }
