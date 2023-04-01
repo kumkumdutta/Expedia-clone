@@ -5,6 +5,7 @@ import ShowCalender from "./ShowCalender";
 import { Button, Stack } from "@chakra-ui/react";
 import styles from "./Stay.module.css";
 import {Link} from "react-router-dom";
+import StayData from "./StayData";
 function Stay() {
   const handleOnSearch = (string, results) => {
     // onSearch will have as the first callback parameter
@@ -65,8 +66,6 @@ function Stay() {
       </header>
       <div className={styles["calenderWrapper"]}>
         <ShowCalender />
-
-        
           <Button
             colorScheme="blue"
             size="lg"

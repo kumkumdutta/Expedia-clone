@@ -49,14 +49,16 @@ export const addHotel = (payload) => (dispatch) => {
 };
 
 //
-export const fetchingHotels = (limit) => (dispatch) => {
+export const fetchingHotels = () => (dispatch) => {
+  dispatch({type:HOTEL_REQUEST})
   axios
-    .get(`http://localhost:8080/hotel?_limit=${limit}`)  // https://makemytrip-api-data.onrender.com/hotel?_limit=${limit}
+    .get(`http://localhost:8080/hotel`)  // https://makemytrip-api-data.onrender.com/hotel?_limit=${limit}
     .then((res) => {
-      //   console.log(res.data);
-      dispatch(fetch_hotel(res.data));
+         console.log(res.data);
+         dispatch({type:GET_HOTEL_SUCCESS,payload:res.data});
     })
     .catch((err) => {
+      dispatch({type:HOTEL_FAILURE})
       console.log(err);
     });
 };
