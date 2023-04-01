@@ -1,6 +1,7 @@
 .date-pickers {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
+    gap:20px
   }
   
   .date-picker-wrapper {
