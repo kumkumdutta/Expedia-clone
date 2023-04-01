@@ -2,6 +2,7 @@ import { Tab, TabIndicator,Box, TabList, TabPanel, TabPanels, Tabs, Center } fro
 import Stay from '../../Pages/Stay/Stay';
 import React from 'react'
 import { InputBox } from '../../Pages/ThingsTodo/InputBox'
+import Flights from '../../Pages/Flights/Flight'
 
 const MainInputBox = () => {
   return (
@@ -27,7 +28,7 @@ const MainInputBox = () => {
                     <Stay/>
                     </TabPanel>
                     <TabPanel>
-                        <p>Flight</p>
+                        <Flights/>
                     </TabPanel>
                     <TabPanel>
                         <p>Cars</p>
