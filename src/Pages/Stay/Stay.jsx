@@ -37,9 +37,9 @@ function Stay() {
   };
 
   return (
-    <div className="App" style={{marginLeft:"100px",position:"relative"}}>
-      <header style={{ backgroundColor: "white", margin: "20px"}}>
-        <div style={{ width: 400 }}>
+    <div className="App" style={{marginLeft:"230px",position:"relative", display:"flex"}}>
+      <header style={{ backgroundColor: "white", margin: "20px" , width:"400px"}}>
+        <div style={{ width: 400 ,}}>
           <ReactSearchAutocomplete
             items={data}
             onSearch={handleOnSearch}
@@ -64,12 +64,16 @@ function Stay() {
           />
         </div>
       </header>
-      <div className={styles["calenderWrapper"]}>
+      <div className={styles["calenderWrapper"]} style={{display:"flex", flexDirection:"column",gap:"20px"}}>
+        <div style={{width:"400px",marginTop:"20px"}}>
         <ShowCalender />
+        </div>
+        
           <Button
             colorScheme="blue"
             size="lg"
             className={styles["SearchBtn1"]}
+            style={{margin:"auto",}}
             
           >
             <Link to={{ pathname: '/stay' }}>Search</Link>

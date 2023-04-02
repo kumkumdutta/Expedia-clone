@@ -52,7 +52,7 @@ export default function Footer() {
               <Text fontWeight={'extrabold'} fontSize={'120%'} >Chalo Ghume Group</Text>
             </Box>
             <Text fontSize={'sm'}>
-              © 2022 Chakra Templates. All rights reserved
+              © 2023 Chalo Ghume. All rights reserved
             </Text>
           </Stack>
           <Stack align={'flex-start'}>
