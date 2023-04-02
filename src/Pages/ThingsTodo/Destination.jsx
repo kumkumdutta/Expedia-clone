@@ -15,7 +15,7 @@ export const Destination = () => {
   const [searchParams] = useSearchParams()
  
   let place = searchParams.get("place")
-  let sort = searchParams.get("sort")
+  
   
   useEffect(()=>{
     axios.get(`https://happy-sunglasses-eel.cyclic.app/Things_todo?place=${place}`).then((response) => {

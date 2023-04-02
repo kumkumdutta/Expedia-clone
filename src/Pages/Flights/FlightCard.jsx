@@ -50,7 +50,7 @@ export default function FlightCard({ data }) {
         <h3>Price</h3>
         <b>{price}</b>
       </Flex>
-      <Link to={"/cart"}>
+      <Link to={"/checkout"}>
         <Button colorScheme='blue' onClick={handleClick}>Book Now</Button>
       </Link>
     </Box>
