@@ -22,8 +22,7 @@ export default function Flights() {
     console.log(PassengerData);
     setPassengerData(initialState);
   };
-
-  const swapValuehandler = () => {
+const swapValuehandler = () => {
     setPassengerData({
       ...PassengerData,
       from: PassengerData.to,
