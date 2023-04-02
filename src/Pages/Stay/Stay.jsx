@@ -1,12 +1,16 @@
-import React from "react";
+import React,{useState} from "react";
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
 import data from "./city";
 import ShowCalender from "./ShowCalender";
-import { Button, Stack } from "@chakra-ui/react";
+import { Button,} from "@chakra-ui/react";
 import styles from "./Stay.module.css";
 import {Link} from "react-router-dom";
-import StayData from "./StayData";
+import { useDispatch } from "react-redux";
+import { selectCity } from "../../Redux/StayReducer/action";
+
 function Stay() {
+  const [selectedCity, setSelectedCity] = useState("");
+  const dispatch = useDispatch();
   const handleOnSearch = (string, results) => {
     // onSearch will have as the first callback parameter
     // the string searched and for the second the results.
@@ -20,7 +24,9 @@ function Stay() {
 
   const handleOnSelect = (data) => {
     // the item selected
-    console.log(data);
+    console.log(data.name);
+    setSelectedCity(data.name);
+    dispatch(selectCity(data.name));
   };
 
   const handleOnFocus = () => {
