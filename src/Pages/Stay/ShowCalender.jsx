@@ -48,7 +48,7 @@ function ShowCalender() {
             <div className={styles["bigger-text"]}>
               {checkInDate.toLocaleDateString("en-IN", {
                 day: "numeric",
-                month: "short"
+                month: "short",
               })}
             </div>
           )}
@@ -80,7 +80,7 @@ function ShowCalender() {
             <div className={styles["bigger-text"]}>
               {checkOutDate.toLocaleDateString("en-US", {
                 day: "numeric",
-                month: "short"
+                month: "short",
               })}
             </div>
           )}
