@@ -1,4 +1,6 @@
 import {
+  SELECTED_DATE_AND_CITY,
+  SELECTED_CITY,
   HOTEL_FAILURE,
   HOTEL_REQUEST,
   GET_HOTEL_SUCCESS,
@@ -11,11 +13,18 @@ const initialState = {
   data: [],
   isLoading: false,
   isError: false,
+  checkInDate: null,
+  checkOutDate:null,
+  selectedCity: null,
 };
 
 export const StayReducer = (state = initialState, { type, payload }) => {
   switch (type) {
-    case HOTEL_REQUEST:
+    case SELECTED_DATE_AND_CITY:
+      return { ...state, checkInDate: payload.checkInDate,checkOutDate:payload.checkOutDate, selectedCity: payload.selectedCity };
+      case SELECTED_CITY:
+        return { ...state, selectedCity: payload.selectedCity };
+      case HOTEL_REQUEST:
       return { ...state, isLoading: true };
 
     case HOTEL_FAILURE:

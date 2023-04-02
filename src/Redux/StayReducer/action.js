@@ -1,5 +1,7 @@
 import axios from "axios";
 import {
+  SELECTED_DATE_AND_CITY,
+  SELECTED_CITY,
   HOTEL_FAILURE,
   HOTEL_REQUEST,
   GET_HOTEL_SUCCESS,
@@ -33,7 +35,14 @@ export const handleDeleteHotel = (payload) => {
   return { type: DELETE_HOTEL, payload };
 };
 
-//
+//Pick date and city for storing into redux store
+
+export const selectDateAndCity = (checkInDate,checkOutDate) => {
+  return { type: SELECTED_DATE_AND_CITY, payload: { checkInDate, checkOutDate } };
+};
+export const selectCity = (selectedCity) => {
+  return { type: SELECTED_CITY, payload: { selectedCity } };
+};
 
 export const addHotel = (payload) => (dispatch) => {
   dispatch(hotelRequest());
