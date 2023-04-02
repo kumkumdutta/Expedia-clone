@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+<h1>Chalo Ghume</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>This project is a clone of the Expedia website, created by Team of 5 starting with Kumkum (Team Lead), Ashish, Amit, Sagar Balsaraf, and Sarim . The purpose of this project is to showcase our skills and knowledge in HTML, CSS, JavaScript, React, Redux, and Json-Server.<p>
 
-## Available Scripts
 
-In the project directory, you can run:
+<h2>Tech Stack</h2>
 
-### `npm start`
+- HTML
+- CSS
+- JavaScript
+- React
+- Redux
+- Json-Server
+- firebase
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>Dependency</h2>
 
-### `npm test`
+- axios
+- redux
+- react-redux
+- redux thunk
+- chakraUI
+- firebase
+- font-awesome
+- json-server
+- react-router-dom
+- better-react-carousel
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2>Features</h2>
 
-### `npm run build`
+- Landing Page
+- Login and signup via firebase (OTP).
+- View details of flights, hotels.
+- Search for flights, hotels, and holiday packages
+- Sorting & Filtering and Seraching
+- Book flights, hotels.
+- Cart Section
+- Admin Panel
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2>Installation</h2>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run this project locally, follow the steps below:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+. Clone the repository by running the following command:
+git clone https://github.com/kumkumdutta/interesting-stretch-8935.git
 
-### `npm run eject`
+. Navigate to the project directory:
+cd hesitant-river-6235
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+. Install the dependencies:
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+. Start the server:
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+. Start JSON- Server:
+npm run server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+. Open the website in your browser:
+http://localhost:3000/
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h2>Deployment</h2>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project has been deployed using Vercel at the following URL:
 
-### Code Splitting
+https://interesting-stretch-8935.vercel.app/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
