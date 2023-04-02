@@ -9,6 +9,7 @@ import {
 } from "firebase/auth";
 import { useDispatch, useSelector } from "react-redux";
 import { fetch_users, userRigister } from "../Redux/Authantication/auth.action";
+import Navbar from "../Components/Navbar";
 
 const auth = getAuth(firebase_app);
 const state = {
@@ -150,7 +151,6 @@ export const Register = () => {
 
   return (
     <>
-      {/* <Navbar /> */}
       <div className="mainLogin">
         <div id="recaptcha-container"></div>
         <div className="loginBx">
