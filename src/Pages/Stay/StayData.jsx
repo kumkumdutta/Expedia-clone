@@ -8,27 +8,19 @@ import Sidebar from "./Sidebar";
 const StayData = () => {
   const dispatch = useDispatch();
   const { StayHotel } = useSelector((store) => store.StayReducer);
+  const checkInDate = useSelector((state) => state.StayReducer.checkInDate);
+  const checkOutDate = useSelector((state) => state.StayReducer.checkOutDate);
+  const selectedCity = useSelector((state) => state.StayReducer.selectedCity);
+  console.log("city",selectedCity);
+  console.log("In", checkInDate);
+  console.log("out", checkOutDate);
   const [selectedPriceRange, setSelectedPriceRange] = useState([0, 10000]);
   const [filteredHotel, setFilteredHotel] = useState([]);
-  const [sortOrder, setSortOrder] = useState("asc");
-  const [sortCriteria, setSortCriteria] = useState("price");
   const [price, setPrice] = useState(""); // Define price state variable
 
   const handleLeft = (id) => {
     dispatch(DeleteHotel(id));
   };
-
-  // const handlePriceRangeChange = (newPriceRange) => {
-  //   setSelectedPriceRange(newPriceRange);
-  // };
-
-  // const handleSortCriteriaChange = (newSortCriteria) => {
-  //   setSortCriteria(newSortCriteria);
-  // };
-
-  // const handleSortOrderChange = () => {
-  //   setSortOrder(sortOrder === "asc" ? "desc" : "asc");
-  // };
 
   useEffect(() => {
     dispatch(fetchingHotels("",""));
@@ -46,22 +38,11 @@ const StayData = () => {
     }
   }, [StayHotel, selectedPriceRange]);
 
-  // useEffect(() => {
-  //   // Set price state variable based on selected radio button in the PriceFilter component
-  //   if (price === "low") {
-  //     setFilteredHotel([...filteredHotel].sort((a, b) => a.price - b.price));
-  //   } else if (price === "high") {
-  //     setFilteredHotel([...filteredHotel].sort((a, b) => b.price - a.price));
-  //   }
-  // }, [price, filteredHotel]);
-
 
   return (
     <div className="stay-data">
       
       <div className="sidebar-container">
-          {/* onSortCriteriaChange={handleSortCriteriaChange}
-          onSortOrderChange={handleSortOrderChange} */}
         <Sidebar/>
       </div>
 

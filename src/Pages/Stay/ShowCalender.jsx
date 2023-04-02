@@ -1,18 +1,24 @@
 import React, { useState } from "react";
 import DatePicker from "react-datepicker";
+import { useDispatch } from "react-redux";
 import "react-datepicker/dist/react-datepicker.css";
 import styles from "../Stay/CheckInCheckOut.module.css";
+import { selectDateAndCity } from "../../Redux/StayReducer/action";
 
 function ShowCalender() {
   const [checkInDate, setCheckInDate] = useState(null);
   const [checkOutDate, setCheckOutDate] = useState(null);
+  const dispatch = useDispatch();
 
   function handleCheckInDateChange(date) {
     setCheckInDate(date);
+
+    dispatch(selectDateAndCity(date, checkOutDate));
   }
 
   function handleCheckOutDateChange(date) {
     setCheckOutDate(date);
+    dispatch(selectDateAndCity(checkInDate, date));
   }
 
   // function showPickedDates() {
@@ -31,7 +37,9 @@ function ShowCalender() {
         
         
         >
-          <label htmlFor="check-in-date" >Check-in Date:</label>
+
+          <label className="check-in-date">Check-in Date:</label>
+
           <div className={styles["date-picker-input-container"]}>
             <div className={checkInDate ? styles["smaller-text"] : ""  } >
               check in
@@ -65,7 +73,7 @@ function ShowCalender() {
             checkOutDate ? styles["smaller-text"] : ""
           }`}
         >
-          <label htmlFor="check-out-date">Check-out Date:</label>
+          <label className="check-out-date">Check-out Date:</label>
           <div className={styles["date-picker-input-container"]}>
             <div className={checkOutDate ? styles["smaller-text"] : ""} >
               check out
