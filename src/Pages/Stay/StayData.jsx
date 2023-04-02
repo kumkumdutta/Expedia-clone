@@ -69,7 +69,7 @@ const StayData = () => {
               </div>
               <div className="stay-rating">
                 <span>Rating:</span>
-                <p>{hotel.rating}</p>
+                <p>{hotel.rating ? hotel.rating : 1}</p>
               </div>
             </div>
           </div>

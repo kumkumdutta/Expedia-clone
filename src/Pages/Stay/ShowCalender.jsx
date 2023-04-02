@@ -27,16 +27,21 @@ function ShowCalender() {
   // }
 
   return (
-    <div className={styles["date-pickers"]}>
-      <div className={styles["date-picker-wrapper"]}>
+    <div className={styles["date-pickers"]} >
+      <div className={styles["date-picker-wrapper"]} style={{width:"200px",height:"100px"}}>
         <div
           className={`${styles["check-in"]} ${
             checkInDate ? styles["smaller-text"] : ""
           }`}
+
+        
+        
         >
+
           <label className="check-in-date">Check-in Date:</label>
+
           <div className={styles["date-picker-input-container"]}>
-            <div className={checkInDate ? styles["smaller-text"] : ""}>
+            <div className={checkInDate ? styles["smaller-text"] : ""  } >
               check in
             </div>
             <DatePicker
@@ -46,6 +51,8 @@ function ShowCalender() {
               placeholderText=" "
               className={styles["date-picker-input"]}
               calendarClassName={styles["date-picker-calendar"]}
+          style={{ width:"80%", height:"60px"}}
+
             />
           </div>
         </div>
@@ -60,7 +67,7 @@ function ShowCalender() {
           )}
         </div>
       </div>
-      <div className={styles["date-picker-wrapper"]}>
+      <div className={styles["date-picker-wrapper"]} style={{width:"200px",height:"100px"}}>
         <div
           className={`${styles["check-in"]} ${
             checkOutDate ? styles["smaller-text"] : ""
@@ -68,7 +75,7 @@ function ShowCalender() {
         >
           <label className="check-out-date">Check-out Date:</label>
           <div className={styles["date-picker-input-container"]}>
-            <div className={checkOutDate ? styles["smaller-text"] : ""}>
+            <div className={checkOutDate ? styles["smaller-text"] : ""} >
               check out
             </div>
             <DatePicker

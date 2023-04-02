@@ -9,12 +9,14 @@ import Footer from '../../Components/Footer'
 
 import {Grid,Box,Center} from '@chakra-ui/react';
 
+
 export const Destination = () => {
   const [places,setPlaces] = useState([])
   const [searchParams] = useSearchParams()
  
   let place = searchParams.get("place")
-
+  let sort = searchParams.get("sort")
+  
   useEffect(()=>{
     axios.get(`https://happy-sunglasses-eel.cyclic.app/Things_todo?place=${place}`).then((response) => {
         setPlaces(response.data)
@@ -27,17 +29,17 @@ export const Destination = () => {
 
     
       <>
-
-
-     
-<Center>
+      
+        <Center>
       
       <Grid templateColumns={{ base: 'repeat(1, 1fr)',  md: 'repeat(2, 1fr)',lg:'repeat(3, 1fr)'} } columnGap={20} rowGap={20} mt={"60px"}>
-       {places.map((el)=>(<DestinationCard key={el.id} image={el.image} title={el.title} price={el.price} rating={el.rating} place={el.place}/>
+       {places.map((el)=>(<DestinationCard key={el.id} image={el.image} title={el.title} price={el.price} rating={+el.rating ? +el.rating : 0} place={el.place}/>
         ))}
         </Grid>
     
-      </Center>
+  </Center>
+   
+      
       
       </>
       
