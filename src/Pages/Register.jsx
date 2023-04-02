@@ -154,9 +154,14 @@ export const Register = () => {
       <div className="mainLogin">
         <div id="recaptcha-container"></div>
         <div className="loginBx">
+        <div className="logoImgdivReg"><img className="imglogoReg" src="https://i.postimg.cc/QxksRNkQ/expedio-Logo.jpg':'https://i.postimg.cc/fRx4D7QH/logo3.png" alt="" /></div>
+
           <div className="loginHead">
+          <hr /><hr /><hr />
+
             <h1>Register</h1>
           </div>
+          
           <div className="loginInputB" id="loginNumber">
             <label htmlFor="">Enter Your Number</label>
             <span>
@@ -166,6 +171,7 @@ export const Register = () => {
                 name="number"
                 value={number}
                 onChange={(e) => handleChangeMobile(e)}
+                placeholder="Number"
               />
               <button
                 disabled={verify}
@@ -228,8 +234,9 @@ export const Register = () => {
           {isLoading ? <h1>Please wait...</h1> : ""}
 
           <div className="loginTerms">
-            <h2>Or USE ARE BUSSINESS ACCOUNT WITH</h2>
-            <p>By proceeding, you agree to MakeMyTrip'sT&Csand Privacy</p>
+          <div className="inpChecbx"><input className="inp" type="checkbox" /> <h2>Keep me signed in</h2></div>
+            <p>Selecting this checkbox will keep you signed into your account on this device until you sign out. Do not select this on shared devices.</p>
+            <h6>By signing in, I agree to the Expedia <span> Terms and Conditions</span>, <span>Privacy Statement</span> and <span>Expedia Rewards Terms and Conditions</span>.</h6>
           </div>
           <br />
           <h3 id="loginMesageError"></h3>

@@ -88,6 +88,9 @@ export const Login = () => {
         document.querySelector("#loginMesageSuccess").innerHTML = ``;
         document.querySelector("#loginMesageError").innerHTML =
           "User does not exist Please Create Your Account !";
+          setInterval(() => {
+            window.location="/register"
+          }, 1000);
       }
       //
     } else {
@@ -140,8 +143,11 @@ export const Login = () => {
       <div className="mainLogin">
         <div id="recaptcha-container"></div>
         <div className="loginBx">
+        <div className="logoImgdiv"><img className="imglogo" src="https://i.postimg.cc/QxksRNkQ/expedio-Logo.jpg':'https://i.postimg.cc/fRx4D7QH/logo3.png" alt="" /></div>
+           
           <div className="loginHead">
-            <h1>Login</h1>
+          <hr /><hr /><hr />
+            <h1>SignIn</h1>
           </div>
           <div className="loginInputB">
             <label htmlFor="">Enter Your Number</label>
@@ -152,13 +158,14 @@ export const Login = () => {
                 name="number"
                 value={number}
                 onChange={(e) => handleChangeMobile(e)}
+                placeholder="Number"
               />
               <button
                 disabled={verify}
                 onClick={handleVerifyNumber}
                 id="nextText"
               >
-                Next
+                SignIn
               </button>
             </span>
           </div>
@@ -184,6 +191,9 @@ export const Login = () => {
                     <p>By proceeding, you agree to MakeMyTrip'sT&Csand Privacy</p> */}
             <Link to="/register">Don't have an Account</Link>
             <Link to="/admin">Admin Login</Link>
+            <div className="inpChecbx"><input className="inp" type="checkbox" /> <h2>Keep me signed in</h2></div>
+            <p>Selecting this checkbox will keep you signed into your account on this device until you sign out. Do not select this on shared devices.</p>
+            <h6>By signing in, I agree to the Expedia <span> Terms and Conditions</span>, <span>Privacy Statement</span> and <span>Expedia Rewards Terms and Conditions</span>.</h6>
           </div>
           <h3 id="loginMesageError"></h3>
           <h3 id="loginMesageSuccess"></h3>

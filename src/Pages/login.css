@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
 }
 .mainLogin > .loginBx{
     position: relative;
@@ -14,12 +15,13 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 30px;
     /* border: 1px solid black; */
 }
 .mainLogin > .loginBx > .loginHead{
     padding: 10px;
     text-align: center;
-    /* border: 1px solid black; */
+    /* border: 1px solid red; */
 }
 .mainLogin > .loginBx > .loginHead > h1{
     font-size: 25px;
@@ -40,6 +42,7 @@
     width: 100%;
     padding: 5px 10px;
     border: 1px solid gray;
+    border-radius: 5px;
 }
 .mainLogin > .loginBx > .loginInputB > span button{
     /* border: 1px solid b; */
@@ -84,4 +87,57 @@
     padding: 5px 20px;
     background-color:royalblue;
     color: white;
+}
+.inp{
+    width: 18px;
+    height: 18px;
+    margin-top: 5px;
+}
+.inpChecbx{
+    display: flex;
+    margin-left: 10px;
+    
+}
+.inpChecbx > h2{
+    margin-left: 5px;
+    font-size: 16px;
+}
+.loginTerms p{
+    margin-left: 10px;
+    text-align: left;
+}
+
+.loginTerms h6{
+    margin: 30px 10px;
+    font-size: 13px;
+    text-align: left;
+}
+.loginTerms span{
+    color: blue;
+}
+.logoImgdiv{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    margin: auto;
+    margin-top: -10px;
+}
+.logoImgdiv .imglogo{
+    margin: auto;
+    width: 60%;
+    height: 140px;
+    border-radius: 50px;
+    text-align: center;
+}
+.logoImgdivReg{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+}
+.logoImgdivReg .imglogoReg{
+    margin: auto;
+    width: 60%;
+    height: 140px;
+    border-radius: 50px;
+    text-align: center;
 }
