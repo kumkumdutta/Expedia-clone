@@ -1,13 +1,15 @@
-import Stay from './Pages/Stay';
+
 import './App.css';
-import HomePage from './Pages/HomePage';
+
+import { AllRoutes } from './Pages/AllRoutes';
 
 
 function App() {
   return (
     <div className="App">
-     
-      <HomePage/>
+      
+      <AllRoutes/>
+
       
     </div>
   );

@@ -8,6 +8,7 @@ import ImageQRCodeBanner from '../Components/HomePageComponents/ImageQRCodeBanne
 import HelpBoxes from '../Components/HomePageComponents/HelpBoxes'
 import QatarVisitBanner from '../Components/HomePageComponents/QatarVisitBanner'
 import ManSeeBanner from '../Components/HomePageComponents/ManSeeBanner'
+import Flights from './Flights/Flight'
 
 
 const HomePage = () => {
@@ -15,12 +16,14 @@ const HomePage = () => {
     <div>
       <Navbar/>
       <MainInputBox/>
+      
       <Banner1/>
       <ImageQRCodeBanner/>
       <HelpBoxes/>
       <QatarVisitBanner/>
       <ManSeeBanner/>
       <Footer/>
+      {/* <AllRoutes /> */}
     </div>
   )
 }
