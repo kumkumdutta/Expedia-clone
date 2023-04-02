@@ -1,11 +1,13 @@
 .date-pickers {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
+    gap:20px
   }
   
   .date-picker-wrapper {
     display: inline-block;
     border: 1px solid black;
+    border-radius: 20px;
     padding: 1rem;
   }
   

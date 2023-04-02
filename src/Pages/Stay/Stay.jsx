@@ -1,10 +1,11 @@
 import React from "react";
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
 import data from "./city";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { MdLocationOn } from "react-icons/md";
 import ShowCalender from "./ShowCalender";
 import { Button, Stack } from "@chakra-ui/react";
+import styles from "./Stay.module.css";
+import {Link} from "react-router-dom";
+import StayData from "./StayData";
 function Stay() {
   const handleOnSearch = (string, results) => {
     // onSearch will have as the first callback parameter
@@ -36,8 +37,8 @@ function Stay() {
   };
 
   return (
-    <div className="App">
-      <header style={{ backgroundColor: "white", margin: "20px" }}>
+    <div className="App" style={{marginLeft:"100px",position:"relative"}}>
+      <header style={{ backgroundColor: "white", margin: "20px"}}>
         <div style={{ width: 400 }}>
           <ReactSearchAutocomplete
             items={data}
@@ -63,17 +64,17 @@ function Stay() {
           />
         </div>
       </header>
-      <div>
+      <div className={styles["calenderWrapper"]}>
         <ShowCalender />
-
-        
           <Button
             colorScheme="blue"
             size="lg"
-            style={{ border: "2px solid blue",display:"flex", justifyContent: "center",margin:"auto"}}
+            className={styles["SearchBtn1"]}
+            
           >
-            Search
-          </Button>
+            <Link to={{ pathname: '/stay' }}>Search</Link>
+          
+          </Button >
        
       </div>
     </div>
