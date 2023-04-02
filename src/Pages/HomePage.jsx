@@ -15,6 +15,13 @@ const HomePage = () => {
       <HelpBoxes />
       <QatarVisitBanner />
       <ManSeeBanner />
+      <MainInputBox/>
+      
+      <Banner1/>
+      <ImageQRCodeBanner/>
+      <HelpBoxes/>
+      <QatarVisitBanner/>
+      <ManSeeBanner/>
     </div>
   );
 };

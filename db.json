@@ -59,6 +59,16 @@
       "gender": "",
       "marital_status": null,
       "id": 6
+    },
+    {
+      "number": "9382068271",
+      "user_name": "Kumkum Dutta",
+      "password": "10122002",
+      "email": "",
+      "dob": "",
+      "gender": "",
+      "marital_status": null,
+      "id": 7
     }
   ],
   "hotelcart": [

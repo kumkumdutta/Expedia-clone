@@ -11,6 +11,7 @@ import HomePage from "./HomePage";
 import { Login } from "./Login";
 import { Register } from "./Register";
 import StayData from "./Stay/StayData";
+import CheckoutPage from "./CheckoutPage";
 
 export const AllRoutes = () => {
     return (
@@ -27,6 +28,7 @@ export const AllRoutes = () => {
             <Route path="/ThingsToDo" element={<Destination/>}/>
             <Route path="/stay" element={<StayData />} />
             
+            <Route path="/checkout" element={<CheckoutPage/>} ></Route>
           </Routes>
         </>
       );
