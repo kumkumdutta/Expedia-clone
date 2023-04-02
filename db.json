@@ -69,6 +69,26 @@
       "gender": "",
       "marital_status": null,
       "id": 7
+    },
+    {
+      "number": "9764113475",
+      "user_name": "abc",
+      "password": "12345",
+      "email": "",
+      "dob": "",
+      "gender": "",
+      "marital_status": null,
+      "id": 8
+    },
+    {
+      "number": "9467922067",
+      "user_name": "Sarim",
+      "password": "123456",
+      "email": "",
+      "dob": "",
+      "gender": "",
+      "marital_status": null,
+      "id": 9
     }
   ],
   "hotelcart": [

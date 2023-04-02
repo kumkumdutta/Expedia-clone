@@ -5,13 +5,13 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC9ITc-qx8vQU5wwmMJyuWNPK2fuhLRjgA",
-  authDomain: "makemytrip-authantication.firebaseapp.com",
-  databaseURL: "https://makemytrip-authantication-default-rtdb.firebaseio.com",
-  projectId: "makemytrip-authantication",
-  storageBucket: "makemytrip-authantication.appspot.com",
-  messagingSenderId: "17638617178",
-  appId: "1:17638617178:web:a745ac4ac49388320c6863"
+  apiKey: "AIzaSyBlKHCdVfQvMRKQf2B5UqaLfDkwm6T1apo",
+  authDomain: "challo-ghume-fa22c.firebaseapp.com",
+  projectId: "challo-ghume-fa22c",
+  storageBucket: "challo-ghume-fa22c.appspot.com",
+  messagingSenderId: "411994731743",
+  appId: "1:411994731743:web:a02cec85eb6aa66ddbe56a",
+  measurementId: "G-5KYMV9KZ2D"
 };
 
 // Initialize Firebase

@@ -152,7 +152,7 @@ import {
                   
                   border={0}
                   boxShadow={'xl'}
-                  bg={popoverContentBgColor}
+                  // bg={popoverContentBgColor}
                   bg={'white'}
                   zIndex={5}
                   p={4}

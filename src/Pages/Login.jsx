@@ -137,7 +137,6 @@ export const Login = () => {
 
   return (
     <>
-      {/* <Navbar /> */}
       <div className="mainLogin">
         <div id="recaptcha-container"></div>
         <div className="loginBx">
