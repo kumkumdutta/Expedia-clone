@@ -58,12 +58,12 @@ export const addHotel = (payload) => (dispatch) => {
 };
 
 //https://happy-sunglasses-eel.cyclic.app/hotel?_sort=asc&_order=price&page=1&_limit=20
-export const fetchingHotels = (sort, order) => async (dispatch) => {
-  console.log(order, sort);
+export const fetchingHotels = (sort, order, page) => async (dispatch) => {
+  console.log(order, sort,page);
   dispatch({ type: HOTEL_REQUEST });
   try {
     const res = await axios.get(
-      `https://happy-sunglasses-eel.cyclic.app/hotel?_sort=${sort}&_order=${order}`
+      `https://happy-sunglasses-eel.cyclic.app/hotel?_sort=${sort}&_order=${order}&_page=${page}&_limit=20`
     );
     console.log(res.data);
     dispatch({ type: GET_HOTEL_SUCCESS, payload: res.data });
@@ -72,6 +72,9 @@ export const fetchingHotels = (sort, order) => async (dispatch) => {
     console.log(err);
   }
 };
+
+
+
 
 
 //

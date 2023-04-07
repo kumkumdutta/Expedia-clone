@@ -4,10 +4,11 @@ import { DeleteHotel, fetchingHotels } from "../../Redux/StayReducer/action";
 import "./StayData.css";
 import PriceFilter from "./PriceFilter";
 import Sidebar from "./Sidebar";
+import Pagination from "./Pagination";
 
 const StayData = () => {
   const dispatch = useDispatch();
-  const { StayHotel } = useSelector((store) => store.StayReducer);
+  const { data } = useSelector((store) => store.StayReducer);
   const checkInDate = useSelector((state) => state.StayReducer.checkInDate);
   const checkOutDate = useSelector((state) => state.StayReducer.checkOutDate);
   const selectedCity = useSelector((state) => state.StayReducer.selectedCity);
@@ -18,27 +19,37 @@ const StayData = () => {
   const [filteredHotel, setFilteredHotel] = useState([]);
   const [price, setPrice] = useState(""); // Define price state variable
 
+  //Pagination
+  const [currentPage, setCurrentPage] = useState(1);
+  const totalNumOfPages = Math.ceil(244 / 20); 
+
+
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
+
   const handleLeft = (id) => {
     dispatch(DeleteHotel(id));
   };
 
-  useEffect(() => {
-    dispatch(fetchingHotels("",""));
-  }, [dispatch]);
+  // useEffect(() => {
+  //   dispatch(fetchingHotels("","",""));
+  // }, [dispatch]);
 
   useEffect(() => {
-    if (StayHotel) {
+    if (data) {
       setFilteredHotel(
-        StayHotel.filter(
+        data.filter(
           (hotel) =>
             hotel.price >= selectedPriceRange[0] &&
             hotel.price <= selectedPriceRange[1]
         )
       );
+      console.log(filteredHotel);
     }
-  }, [StayHotel, selectedPriceRange]);
+  }, [data, selectedPriceRange]);
 
-
+console.log(data)
   return (
     <div className="stay-data">
       
@@ -75,6 +86,13 @@ const StayData = () => {
           </div>
         </div>
       ))}
+      <div>
+      <Pagination
+        current={currentPage}
+        onChange={handlePageChange}
+        total={totalNumOfPages}
+      />
+      </div>
     </div>
   );
 };

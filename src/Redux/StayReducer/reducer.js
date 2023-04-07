@@ -31,10 +31,10 @@ export const StayReducer = (state = initialState, { type, payload }) => {
       return { ...state, isError: true };
 
     case GET_HOTEL_SUCCESS:
-      return { ...state, isLoading: false, StayHotel: payload };
+      return { ...state, isLoading: false, data: payload };
 
     case POST_HOTEL_SUCCESS:
-      return { ...state, isLoading: false, StayHotel: payload };
+      return { ...state, isLoading: false, data: payload };
 
     case NEW_GET_HOTELS_SUCCESS:
       return {

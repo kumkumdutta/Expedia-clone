@@ -10,7 +10,7 @@ function ShowCalender() {
   const [checkOutDate, setCheckOutDate] = useState(null);
   const dispatch = useDispatch();
 
-  function handleCheckInDateChange(date) {
+  function handleCheckInDateChange(date) {  
     setCheckInDate(date);
 
     dispatch(selectDateAndCity(date, checkOutDate));

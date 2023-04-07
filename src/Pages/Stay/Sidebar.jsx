@@ -2,6 +2,7 @@ import React from "react";
 import { useSearchParams } from "react-router-dom";
 import { fetchingHotels } from "../../Redux/StayReducer/action";
 import { useDispatch } from "react-redux";
+import PriceSlider from "./PriceSlider";
 
 export const Sidebar = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -30,13 +31,13 @@ const handlePriceChange = (e) => {
     order && (params["_order"] = order);
     setSearchParams(params);
 
-    dispatch(fetchingHotels(sort, order));
+    dispatch(fetchingHotels(sort, order,));
   }, [sort, order]);
 
   return (
     <div>
       <h3>Filter By Price</h3>
-      <div onChange={handlePriceChange}>
+      <div onChange={handlePriceChange} >
         <input
           type="radio"
           name="price"
@@ -72,6 +73,12 @@ const handlePriceChange = (e) => {
           
         />
         <label>High to Low</label>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <div>
+        <PriceSlider />
       </div>
     </div>
   );
