@@ -69,15 +69,21 @@ https://interesting-stretch-8935.vercel.app/
 
 
 This is Login and Signup pages:-
-login.PNG
+![login](https://user-images.githubusercontent.com/112754519/231046318-135d34cb-0ae7-46c3-851c-6889441c62de.PNG)
+
 
 
 This is the Stays Page:-
-stays.PNG
+![stays](https://user-images.githubusercontent.com/112754519/231046349-d9885d9f-b42d-4d9f-bfc2-0cac0f9a10df.PNG)
+
+
 
 This is the Flight Page:-
-Flight.PNG
+![Flight](https://user-images.githubusercontent.com/112754519/231046392-fea5d486-9b26-462c-af9a-5727853e6669.PNG)
+
+
 
 This is the Admin Page:-
-Admin.PNG
+![Admin](https://user-images.githubusercontent.com/112754519/231046415-c8c2f14c-f586-4da0-884a-992bc18b0e12.PNG)
+
 
