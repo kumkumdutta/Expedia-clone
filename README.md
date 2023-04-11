@@ -68,3 +68,16 @@ This project has been deployed using Vercel at the following URL:
 https://interesting-stretch-8935.vercel.app/
 
 
+This is Login and Signup pages:-
+login.PNG
+
+
+This is the Stays Page:-
+stays.PNG
+
+This is the Flight Page:-
+Flight.PNG
+
+This is the Admin Page:-
+Admin.PNG
+

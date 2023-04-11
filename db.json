@@ -419,6 +419,17 @@
       "price": 5800,
       "totalTime": "05:10",
       "id": 21
+    },
+    {
+      "airline": "Air-India",
+      "number": "4A-6354C",
+      "from": "Delhi",
+      "to": "Mumbai",
+      "departure": "11:30 am",
+      "arrival": "01:30 pm",
+      "price": 4210,
+      "totalTime": "2h : 00",
+      "id": 22
     }
   ],
   "giftcards": [
