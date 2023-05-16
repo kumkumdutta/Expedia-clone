@@ -1,8 +1,11 @@
 // import { Footer } from "../../components/Footer";
 import { useState } from "react";
 import React from "react";
+import { Button,} from "@chakra-ui/react";
+import {Link} from "react-router-dom";
 import "./homePage.css";
-import SideBar from "./SideBar";
+import styles from "../Stay/Stay.module.css";
+// import SideBar from "./SideBar";
 
 const initialState = {
   from: "",
@@ -118,12 +121,23 @@ const swapValuehandler = () => {
             </div>
           </div>
           <div className="homeSearchButtonBx">
-            <button onClick={handleClick}>Search</button>
+          <Button
+            colorScheme="blue"
+            size="lg"
+            className={styles["SearchBtn1"]}
+            style={{margin:"auto",}}
+            onClick={handleClick}
+            
+          >
+            <Link to={{ pathname: '/flight' }}>Search</Link>
+          
+          </Button >
+            {/* <button >Search</button> */}
           </div>
         </div>
       </div>
 
-      <SideBar />
+      {/* <SideBar /> */}
       {/* <Footer /> */}
     </div>
   );

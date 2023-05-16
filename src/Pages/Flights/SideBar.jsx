@@ -13,12 +13,11 @@ import FlightList from "./FlightList";
 import { useState } from "react";
 
 const SideBar = () => {
-    const [priceValue, setPriceValue] = useState(8);
+  const [priceValue, setPriceValue] = useState(8);
   const [classes, setClasses] = useState("");
   const [page, setPage] = useState(1);
   const [Packaging, setpackaging] = useState("");
 
-  
   return (
     <div>
       <Box
@@ -91,31 +90,31 @@ const SideBar = () => {
             margin="auto"
             marginBottom={"20px"}
           />
-          <div className="pagination-div">
-            {/* Pagination Part UI Start */}
-            <Flex m="1">
-              <Button
-                colorScheme="blue"
-                variant="outline"
-                onClick={() => setPage(page - 1)}
-                isDisabled={page === 1}
-              >
-                Previous
-              </Button>
-              <Button colorScheme="blue" variant="solid">
-                {page}
-              </Button>
-              <Button
-                colorScheme="blue"
-                variant="outline"
-                isDisabled={page === 4}
-                onClick={() => setPage(page + 1)}
-              >
-                Next
-              </Button>
-            </Flex>
-            {/* Pagination Part UI End */}
-          </div>
+
+          {/* Pagination Part UI Start */}
+          <Flex m="5" align="center">
+            <Button
+              colorScheme='blue'
+              variant="solid"
+              onClick={() => setPage(page - 1)}
+              isDisabled={page === 1}
+            >
+              Previous
+            </Button>
+            <Button colorScheme="blue" variant="solid">
+              {page}
+            </Button>
+            <Button
+              colorScheme="blue"
+              variant="solid"
+              isDisabled={page === 4}
+              onClick={() => setPage(page + 1)}
+            >
+              Next
+            </Button>
+          </Flex>
+          {/* Pagination Part UI End */}
+
           <FlightList page={page} priceValue={priceValue} />
         </Box>
       </Box>
