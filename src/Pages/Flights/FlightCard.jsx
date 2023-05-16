@@ -21,6 +21,18 @@ export default function FlightCard({ data }) {
     })
   }
 
+  const Booknow={
+    marginTop: "3%",
+    // width:"164px",
+    padding:"15px",
+    height: "43px",
+    background: "teal",
+    color:" #FFFFFF",
+    bordeRadius: "0.5rem",
+    position: "relative",
+    marginBottom:"1rem"
+}
+
 
   return (
     <Box display={"flex"}
@@ -51,7 +63,7 @@ export default function FlightCard({ data }) {
         <b>{price}</b>
       </Flex>
       <Link to={"/checkout"}>
-        <Button colorScheme='blue' onClick={handleClick}>Book Now</Button>
+        <Button style={Booknow} onClick={handleClick}>Book Now</Button>
       </Link>
     </Box>
 

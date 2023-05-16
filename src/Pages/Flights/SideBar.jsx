@@ -18,8 +18,19 @@ const SideBar = () => {
   const [page, setPage] = useState(1);
   const [Packaging, setpackaging] = useState("");
 
+  const pageBtn={
+    marginTop: "3%",
+    // width:"164px",
+    padding:"15px",
+    height: "43px",
+    background: "#3662D8",
+    color:" #FFFFFF",
+    bordeRadius: "0.5rem",
+    position: "relative",
+    marginBottom:"1rem"
+}
+
   return (
-    <div>
       <Box
         display={"flex"}
         padding="0px 40px"
@@ -92,33 +103,33 @@ const SideBar = () => {
           />
 
           {/* Pagination Part UI Start */}
-          <Flex m="5" align="center">
-            <Button
-              colorScheme='blue'
-              variant="solid"
+          <Stack spacing={4} direction='row' align='center'>
+
+          {/* <Flex m="5" align="center"> */}
+            <Button 
+              style={pageBtn}
               onClick={() => setPage(page - 1)}
               isDisabled={page === 1}
             >
               Previous
             </Button>
-            <Button colorScheme="blue" variant="solid">
+            <Button style={pageBtn}>
               {page}
             </Button>
             <Button
-              colorScheme="blue"
-              variant="solid"
+              style={pageBtn}
               isDisabled={page === 4}
               onClick={() => setPage(page + 1)}
-            >
+              >
               Next
             </Button>
-          </Flex>
+          {/* </Flex> */}
+              </Stack>
           {/* Pagination Part UI End */}
 
           <FlightList page={page} priceValue={priceValue} />
         </Box>
       </Box>
-    </div>
   );
 };
 

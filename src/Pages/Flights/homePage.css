@@ -11,7 +11,7 @@
 }
 .homeTop > .homeTopCard {
   position: relative;
-  background: white;
+  /* background: white; */
   height: auto;
   padding: 30px 0 0 0;
   display: flex;
@@ -81,7 +81,7 @@
   /* border: 1px solid #000; */
 }
 .homeTop > .homeTopCard > .homeMainSearchInput > .MainSearchinputBx:hover {
-  background: rgb(216, 250, 255);
+  background: rgb(91, 129, 155);
 }
 .homeTop > .homeTopCard > .homeMainSearchInput > .MainSearchinputBx span {
   font-weight: 700;
@@ -93,7 +93,7 @@
 .homeTop > .homeTopCard > .homeMainSearchInput > .MainSearchinputBx input {
   width: 100%;
   height: 100%;
-  background-color: transparent;
+  /* background-color: transparent; */
   /* text-align: center; */
   /* border: 1px solid blue; */
 }
@@ -197,4 +197,81 @@
 }
 .homeTop > .homeExplore > .exploreCard > img {
   width: 30px;
+}
+
+
+/* Media query  */
+
+
+@media (max-width: 768px) {
+  .homeTop {
+    width: 90%;
+  }
+
+  .homeTop > .homeTopCard > .homeInputBx {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .homeTop > .homeTopCard > .homeMainSearchInput {
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .homeTop
+    > .homeTopCard
+    > .homeMainSearchInput
+    > .MainSearchinputBx:nth-child(1)
+    input,
+  .homeTop
+    > .homeTopCard
+    > .homeMainSearchInput
+    > .MainSearchinputBx:nth-child(2)
+    input {
+    width: 100%;
+  }
+
+  .homeTop > .homeTopCard > .homeSearchButtonBx {
+    position: static;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .homeTop > .homeTopCard > .Homeoptions {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .homeTop > .homeTopCard > .Homeoptions > .optionsInputBx {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+  }
+
+  .homeTop > .homeTopCard > .Homeoptions > .optionsInputBx input {
+    width: auto;
+  }
+
+  .homeTop > .homeExplore {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .homeTop > .homeExplore > .exploreCard {
+    border: none;
+    padding: 10px;
+  }
+
+  .homeTop > .homeExplore > .exploreCard > img {
+    width: 20px;
+  }
 }
