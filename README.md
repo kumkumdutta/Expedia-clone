@@ -65,7 +65,7 @@ http://localhost:3000/
 
 This project has been deployed using Vercel at the following URL:
 
-https://interesting-stretch-8935.vercel.app/
+https://interesting-stretch-8935-liart.vercel.app/
 
 
 This is Login and Signup pages:-
